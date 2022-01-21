@@ -4,7 +4,7 @@
 
 # Site
 title: 西妮的博客
-subtitle: 保持热爱，奔赴上海
+subtitle: 保持热爱，奔赴山海
 description: 三更灯火五更鸡，正是男儿读书时。
 keywords: 
 author: xini
@@ -46,7 +46,7 @@ future: true
 highlight:
   enable: true
   line_number: true
-  auto_detect: false
+  auto_detect: true
   tab_replace: ''
   wrap: true
   hljs: false
@@ -97,7 +97,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: NexT
+theme: next
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
