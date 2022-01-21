@@ -1,3 +1,8 @@
+---
+title: 搭建hexo个人博客
+date: 2022-01-21 19:06:48
+tags:
+---
 # 部署环境
 * 安装[Git](https://gitforwindows.org/)
 * 安装[Node.js](https://nodejs.org/en/download/)
@@ -75,3 +80,4 @@ deploy:
 *****
 
 浏览器输入`http://yourname.github.io`查看是否成功
+
