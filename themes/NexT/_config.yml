@@ -99,8 +99,8 @@ creative_commons:
 # Schemes
 #scheme: Muse
 #scheme: Mist
-scheme: Pisces
-#scheme: Gemini
+#scheme: Pisces
+scheme: Gemini
 
 # Dark Mode
 darkmode: true
@@ -414,7 +414,8 @@ font:
   enable: false
 
   # Uri of fonts host, e.g. https://fonts.googleapis.com (Default).
-  host:
+  # 使用烧饼博客的CDN
+  host: https://fonts.loli.net
 
   # Font options:
   # `external: true` will load this font family from `host` above.
@@ -422,32 +423,37 @@ font:
   # `size: x.x`. Use `em` as unit. Default: 1 (16px)
 
   # Global font settings used for all elements inside <body>.
+  # 全局字体设置
   global:
     external: true
-    family: Lato
-    size:
+    family: Noto Serif SC
+    size: 0.9
 
   # Font settings for site title (.site-title).
+  # .site-title 站点标题字体设置
   title:
     external: true
-    family:
+    family: Lobster Two
     size:
 
   # Font settings for headlines (<h1> to <h6>).
+  # 文章标题字体设置
   headings:
     external: true
-    family:
+    family: EB Garamond
     size:
 
   # Font settings for posts (.post-body).
+  # 文章页面字体设置
   posts:
     external: true
-    family:
+    family: Roboto Slab
 
   # Font settings for <code> and code blocks.
+  # 代码块字体设置
   codes:
     external: true
-    family:
+    family: Source Code Pro
 
 
 # ---------------------------------------------------------------
@@ -742,7 +748,7 @@ algolia_search:
 # Local Search
 # Dependencies: https://github.com/theme-next/hexo-generator-searchdb
 local_search:
-  enable: false
+  enable: true
   # If auto, trigger search by changing input.
   # If manual, trigger search by pressing enter key or search button.
   trigger: auto
@@ -869,6 +875,7 @@ canvas_ribbon:
   size: 300 # The width of the ribbon
   alpha: 0.6 # The transparency of the ribbon
   zIndex: -1 # The display level of the ribbon
+
 
 
 #! ---------------------------------------------------------------

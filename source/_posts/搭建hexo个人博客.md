@@ -7,6 +7,7 @@ tags:
 * 安装[Git](https://gitforwindows.org/)
 * 安装[Node.js](https://nodejs.org/en/download/)
 * 使用npm安装Hexo
+<!-- more -->
 ********
 新建站点文件夹blog,在文件夹目录下运行命令`npm install -g hexo-cli`，使用`hexo -v`查看版本检验是否安装成功。
 运行 `hexo init`初始化hexo。
