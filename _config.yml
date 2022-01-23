@@ -5,7 +5,7 @@
 # Site
 title: 西妮的博客
 subtitle: 保持热爱，奔赴山海
-description: 三更灯火五更鸡，正是男儿读书时。
+description: 语言的隔阂，本质上是一个人，信息，知识，视野，圈子的隔阂。
 keywords: 
 author: xini
 language: zh-CN
@@ -15,7 +15,10 @@ timezone: Asia/Shanghai
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
 url: https://xiini.github.io
 permalink: :year/:month/:day/:title/
-permalink_defaults:
+permalink_defaults: p/:abbrlink.html  # p 是自定义的前缀
+abbrlink:
+    alg: crc32   #算法： crc16(default) and crc32
+    rep: hex     #进制： dec(default) and hex
 pretty_urls:
   trailing_index: false # Set to false to remove trailing 'index.html' from permalinks
   trailing_html: false # Set to false to remove trailing '.html' from permalinks
@@ -103,7 +106,7 @@ search:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: fluid
+theme: butterfly
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
