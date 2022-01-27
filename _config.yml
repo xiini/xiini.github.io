@@ -3,25 +3,25 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 西妮的博客
-subtitle: 保持热爱，奔赴山海
-description: 语言的隔阂，本质上是一个人，信息，知识，视野，圈子的隔阂。
-keywords: 
+title: '西妮'
+subtitle: '保持热爱，奔赴山海'
+description: ''
+keywords:
 author: xini
 language: zh-CN
-timezone: Asia/Shanghai
+timezone: 'Asia/shanghai'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://xiini.github.io
-## permalink: :year/:month/:day/:title/
+url: http://xini.fun
 permalink: post/:abbrlink.html
-abbrlink:
-    alg: crc32   #算法： crc16(default) and crc32
-    rep: hex     #进制： dec(default) and hex
+abbrlink: 
+    alg: crc32
+    rep: hex
+permalink_defaults: 
 pretty_urls:
-  trailing_index: false # Set to false to remove trailing 'index.html' from permalinks
-  trailing_html: false # Set to false to remove trailing '.html' from permalinks
+  trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
+  trailing_html: true # Set to false to remove trailing '.html' from permalinks
 
 # Directory
 source_dir: source
@@ -49,7 +49,7 @@ future: true
 highlight:
   enable: true
   line_number: true
-  auto_detect: true
+  auto_detect: false
   tab_replace: ''
   wrap: true
   hljs: false
@@ -97,20 +97,14 @@ include:
 exclude:
 ignore:
 
-search:
-  path: search.xml
-  field: post
-  format: html
-  limit: 10000
-
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: butterfly
+theme: fluid
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
-deploy:
+deploy: 
   type: git
   repo: https://github.com/xiini/xiini.github.io.git
   branch: master

@@ -1,5 +1,5 @@
 ---
-title: about
-date: 2022-01-23 14:47:21
-type: "about"
+title: 关于
+layout: about
+date: 2022-01-27 23:30:38
 ---
