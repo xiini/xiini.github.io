@@ -6,7 +6,7 @@
 title: '西妮の博客 - 保持热爱，奔赴山海'
 subtitle: ''
 description: ''
-keywords:
+keywords: xini, 西妮, 西妮的博客, xini的博客
 author: xini
 language: zh-CN
 timezone: 'Asia/shanghai'
@@ -106,5 +106,6 @@ theme: fluid
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy: 
   type: git
-  repo: https://github.com/xiini/xiini.github.io.git
-  branch: master
+  repo: 
+      github: git@github.com:/xiini/xiini.github.io.git,master
+      xini: xini@112.74.97.116:/home/xini/blog.git,master
