@@ -4,13 +4,27 @@
   
   
   <entry>
-    <title>Hello World</title>
-    <link href="/post/4a17b156.html"/>
-    <url>/post/4a17b156.html</url>
+    <title>博客日常维护</title>
+    <link href="/post/d8c368ec.html"/>
+    <url>/post/d8c368ec.html</url>
     
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="quick-start"><a class="markdownIt-Anchor" href="#quick-start"></a> Quick Start</h2><h3 id="create-a-new-post"><a class="markdownIt-Anchor" href="#create-a-new-post"></a> Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><div class="code-wrapper"><pre><span class="line">1</span><br></pre></div></td><td class="code"><pre><code class="hljs bash">$ hexo new <span class="hljs-string">&quot;My New Post&quot;</span><br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="run-server"><a class="markdownIt-Anchor" href="#run-server"></a> Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo server<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="generate-static-files"><a class="markdownIt-Anchor" href="#generate-static-files"></a> Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo generate<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="deploy-to-remote-sites"><a class="markdownIt-Anchor" href="#deploy-to-remote-sites"></a> Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo deploy<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+    <content type="html"><![CDATA[<div class="note note-success">            <p><strong>环境</strong></p><ul><li>Windows 10</li><li>已安装 <strong>Git</strong> 、<strong>Node.js</strong></li></ul>          </div><h2 id="日常改动流程"><a class="markdownIt-Anchor" href="#日常改动流程"></a> 日常改动流程</h2><h3 id="更新博客内容"><a class="markdownIt-Anchor" href="#更新博客内容"></a> 更新博客内容</h3><figure class="highlight bash"><table><tr><td class="gutter"><div class="code-wrapper"><pre><span class="line">1</span><br></pre></div></td><td class="code"><pre><code class="hljs bash">hexo clean &amp;&amp; hexo g -d<br></code></pre></td></tr></table></figure><h3 id="备份hexo站点文件"><a class="markdownIt-Anchor" href="#备份hexo站点文件"></a> 备份hexo站点文件</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs bash">git add .<br>git commit –m <span class="hljs-string">&quot;add branch&quot;</span><br>git push <br></code></pre></td></tr></table></figure><p>将改动保备份到 github 的 hexo 分支，以便更换设备后的持续化。</p><h2 id="若是更换设备后"><a class="markdownIt-Anchor" href="#若是更换设备后"></a> 若是更换设备后</h2><div class="note note-success">            <p>确保安装 Git 与 Node.js</p>          </div><h3 id="克隆-github-中-hexo-存储库中的站点文件"><a class="markdownIt-Anchor" href="#克隆-github-中-hexo-存储库中的站点文件"></a> 克隆 github 中 hexo 存储库中的站点文件</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">git <span class="hljs-built_in">clone</span> git@github.com:name/name.github.io.git <br></code></pre></td></tr></table></figure><p>其中的 name 为 github 的用户名</p><h3 id="在克隆下来的文件夹中安装需要使用的-hexo-插件-视情况安装"><a class="markdownIt-Anchor" href="#在克隆下来的文件夹中安装需要使用的-hexo-插件-视情况安装"></a> 在克隆下来的文件夹中安装需要使用的 hexo 插件 (视情况安装)</h3><h3 id="若已有-clone-文件则可直接进行远端同步"><a class="markdownIt-Anchor" href="#若已有-clone-文件则可直接进行远端同步"></a> 若已有 clone 文件，则可直接进行远端同步</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">git pull<br></code></pre></td></tr></table></figure>]]></content>
     
     
+    <categories>
+      
+      <category>Hexo</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Hexo</tag>
+      
+      <tag>博客维护</tag>
+      
+    </tags>
     
   </entry>
   
