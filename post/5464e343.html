@@ -16,20 +16,42 @@
   <meta name="author" content="xini">
   <meta name="keywords" content="xini, 西妮, 西妮的博客, xini的博客">
   
-    <meta property="og:type" content="website">
-<meta property="og:title" content="标签">
-<meta property="og:url" content="http://xini.fun/tags/index.html">
+    <meta name="description" content="RFID课后感">
+<meta property="og:type" content="article">
+<meta property="og:title" content="物联网RFID原理与技术（一）">
+<meta property="og:url" content="http://xini.fun/post/5464e343.html">
 <meta property="og:site_name" content="西妮の博客 - 保持热爱，奔赴山海">
+<meta property="og:description" content="RFID课后感">
 <meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://img.gejiba.com/images/4935a3a093b1ee018fa1247a1847a1b8.jpg">
+<meta property="article:published_time" content="2022-02-20T02:50:24.000Z">
+<meta property="article:modified_time" content="2022-02-21T09:57:18.137Z">
 <meta property="article:author" content="xini">
-<meta property="article:tag" content="xini, 西妮, 西妮的博客, xini的博客">
+<meta property="article:tag" content="学习笔记">
+<meta property="article:tag" content="物联网RFID原理与技术">
 <meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://img.gejiba.com/images/4935a3a093b1ee018fa1247a1847a1b8.jpg">
   
   
-  <title>标签 - 西妮の博客 - 保持热爱，奔赴山海</title>
+  <title>物联网RFID原理与技术（一） - 西妮の博客 - 保持热爱，奔赴山海</title>
 
   <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4/dist/css/bootstrap.min.css" />
 
+
+  <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/github-markdown-css@4/github-markdown.min.css" />
+  <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/hint.css@2/hint.min.css" />
+
+  
+    
+    
+      
+      <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@10/styles/github-gist.min.css" />
+    
+  
+
+  
+    <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3/dist/jquery.fancybox.min.css" />
+  
 
 
 <!-- 主题依赖的图标库，不要自行修改 -->
@@ -56,7 +78,7 @@
 
 
 <body>
-  <header style="height: 80vh;">
+  <header style="height: 70vh;">
     <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
   <div class="container">
     <a class="navbar-brand" href="/">
@@ -152,22 +174,52 @@
 </nav>
 
     <div class="banner" id="banner" parallax=true
-         style="background: url('/img/default.png') no-repeat center center;
+         style="background: url('https://img.gejiba.com/images/4935a3a093b1ee018fa1247a1847a1b8.jpg') no-repeat center center;
            background-size: cover;">
       <div class="full-bg-img">
         <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
           <div class="page-header text-center fade-in-up">
-            <span class="h2" id="subtitle" title="标签">
+            <span class="h2" id="subtitle" title="物联网RFID原理与技术（一）">
               
             </span>
 
             
+              <div class="mt-3">
+  
+  
+    <span class="post-meta">
+      <i class="iconfont icon-date-fill" aria-hidden="true"></i>
+      <time datetime="2022-02-20 10:50" pubdate>
+        2022年2月20日 上午
+      </time>
+    </span>
+  
+</div>
+
+<div class="mt-1">
+  
+    <span class="post-meta mr-2">
+      <i class="iconfont icon-chart"></i>
+      761 字
+    </span>
+  
+
+  
+    <span class="post-meta mr-2">
+      <i class="iconfont icon-clock-fill"></i>
+      
+      
+      7 分钟
+    </span>
+  
+
+  
+  
+</div>
+
+            
           </div>
 
-          
-            <div class="scroll-down-bar">
-              <i class="iconfont icon-arrowdown"></i>
-            </div>
           
         </div>
       </div>
@@ -176,24 +228,104 @@
 
   <main>
     
-      <div class="container nopadding-x-md">
-        <div class="py-5" id="board"
-          >
-          
-          <div class="container">
-            <div class="row">
-              <div class="col-12 col-md-10 m-auto">
-                
+      
 
-<div class="text-center tagcloud">
-  <a href="/tags/Hexo/" style="font-size: 15px; color: #bbe">Hexo</a> <a href="/tags/%E5%8D%9A%E5%AE%A2%E7%BB%B4%E6%8A%A4/" style="font-size: 15px; color: #bbe">博客维护</a> <a href="/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" style="font-size: 15px; color: #bbe">学习笔记</a> <a href="/tags/%E7%89%A9%E8%81%94%E7%BD%91RFID%E5%8E%9F%E7%90%86%E4%B8%8E%E6%8A%80%E6%9C%AF/" style="font-size: 15px; color: #bbe">物联网RFID原理与技术</a>
-</div>
+<div class="container-fluid nopadding-x">
+  <div class="row nomargin-x">
+    <div class="d-none d-lg-block col-lg-2"></div>
+    <div class="col-lg-8 nopadding-x-md">
+      <div class="container nopadding-x-md" id="board-ctn">
+        <div class="py-5" id="board">
+          <article class="post-content mx-auto">
+            <!-- SEO header -->
+            <h1 style="display: none">物联网RFID原理与技术（一）</h1>
+            
+            <div class="markdown-body">
+              <h2 id="rfid课后感"><a class="markdownIt-Anchor" href="#rfid课后感"></a> RFID课后感</h2>
+<h3 id="印象"><a class="markdownIt-Anchor" href="#印象"></a> 印象</h3>
+<p>在我的印象中，教授都是充满故事的个体，他们披荆斩棘，在迷雾中为专业未来的可能性寻找一条通往深处的道路。他们用自己对专业上独到的见解，培养出一代又一代的传承者，以便后人能在这条道路上继续前进。例如香农在 1948 年开创了信息论，这是人类历史上第一次尝试量化信息，他提出了信道容量的“香农极限”，后来香农在贝尔实验室的学生Robert Gallager在博士论文中提出了LDPC码，虽然有逼近“香农极限”的良好性能，但限于当时的技术条件，缺乏可行的译码算法。而如今5G编码标准之一“极化码”的提出者Arikan教授，他在MIT求学时的老师正是Robert Gallager。祖，师，孙三人的胸口上都挂着信息学最华丽的胸章，完成一场漫长的接力。</p>
+<p><img src="https://img.gejiba.com/images/2090e79a29a21577bb542a39d524b7a4.png" srcset="/img/loading.gif" lazyload alt="一脉相承" /></p>
+<h3 id="张教授给我带来的感觉"><a class="markdownIt-Anchor" href="#张教授给我带来的感觉"></a> 张教授给我带来的感觉</h3>
+<p>热情，平易近人，课程有故事性。<br />
+张教授给我们上了两节课程，课程主要以认识老师、专业和个人为基础，听起来像是故事会一般，或者有点像PV的那种感觉，确实为我带来了不少认识。听着教授讲述自己的往事、他与学生的往事、他与一些行业大佬的往事。就像一个冒险家在讲述他的传奇经历。我的内心澎湃激昂，但又悲伤可恨。内心产生大量想法，但又为自己的能力不足感到惋惜。不过，我要做的只是比昨天的自己更加强大，而剩下的交给时间即可。</p>
+<p><img src="https://img.gejiba.com/images/fdf04691a4eaf60acdb1d0ee6862f586.jpg" srcset="/img/loading.gif" lazyload alt="Dr.zhang" /></p>
+<h3 id="教授的博客"><a class="markdownIt-Anchor" href="#教授的博客"></a> 教授的博客</h3>
+<p>我粗略地浏览了教授的微博、微信公众号、新浪博客，内容还是非常有意思的。一些生活的见解、专业项目的总结、教学的分享，不胜枚举，总共有将近600篇的推文。其中，我发现张教授发的频率最高就是关于学生的图片，可见张教授对于学生的关心、对于学生的教学想必是花费了大量的心思。可惜的是张教授在 2021年之后几乎没有发表过博文了。</p>
+<h3 id="最后"><a class="markdownIt-Anchor" href="#最后"></a> 最后</h3>
+<p>希望在接下来的一个学期的《物联网RFID原理与技术》学习中，跟随张教授的脚步，用自己的双脚丈量土地，将未知变为知识。</p>
 
-              </div>
             </div>
-          </div>
+            <hr>
+            <div>
+              <div class="post-metas mb-3">
+                
+                  <div class="post-meta mr-3">
+                    <i class="iconfont icon-category"></i>
+                    
+                      <a class="hover-with-bg" href="/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/">学习笔记</a>
+                    
+                      <a class="hover-with-bg" href="/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/%E7%89%A9%E8%81%94%E7%BD%91RFID%E5%8E%9F%E7%90%86%E4%B8%8E%E6%8A%80%E6%9C%AF/">物联网RFID原理与技术</a>
+                    
+                  </div>
+                
+                
+                  <div class="post-meta">
+                    <i class="iconfont icon-tags"></i>
+                    
+                      <a class="hover-with-bg" href="/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/">学习笔记</a>
+                    
+                      <a class="hover-with-bg" href="/tags/%E7%89%A9%E8%81%94%E7%BD%91RFID%E5%8E%9F%E7%90%86%E4%B8%8E%E6%8A%80%E6%9C%AF/">物联网RFID原理与技术</a>
+                    
+                  </div>
+                
+              </div>
+              
+                <p class="note note-warning">
+                  
+                    本博客所有文章除特别声明外，均采用 <a target="_blank" href="https://creativecommons.org/licenses/by-sa/4.0/deed.zh" rel="nofollow noopener noopener">CC BY-SA 4.0 协议</a> ，转载请注明出处！
+                  
+                </p>
+              
+              
+                <div class="post-prevnext">
+                  <article class="post-prev col-6">
+                    
+                    
+                      <a href="/post/d8c368ec.html">
+                        <i class="iconfont icon-arrowleft"></i>
+                        <span class="hidden-mobile">博客日常维护</span>
+                        <span class="visible-mobile">上一篇</span>
+                      </a>
+                    
+                  </article>
+                  <article class="post-next col-6">
+                    
+                    
+                  </article>
+                </div>
+              
+            </div>
+
+            
+          </article>
         </div>
       </div>
+    </div>
+    
+      <div class="d-none d-lg-block col-lg-2 toc-container" id="toc-ctn">
+        <div id="toc">
+  <p class="toc-header"><i class="iconfont icon-list"></i>&nbsp;目录</p>
+  <div class="toc-body" id="toc-body"></div>
+</div>
+
+      </div>
+    
+  </div>
+</div>
+
+<!-- Custom -->
+
+
     
 
     
@@ -303,6 +435,19 @@
   
 
 
+
+  
+    <script  src="https://cdn.jsdelivr.net/npm/tocbot@4/dist/tocbot.min.js" ></script>
+  
+  
+    <script  src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3/dist/jquery.fancybox.min.js" ></script>
+  
+  
+    <script  src="https://cdn.jsdelivr.net/npm/anchor-js@4/anchor.min.js" ></script>
+  
+  
+    <script defer src="https://cdn.jsdelivr.net/npm/clipboard@2/dist/clipboard.min.js" ></script>
+  
 
 
 
