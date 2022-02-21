@@ -2,15 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://xini.fun/post/5464e343.html</loc>
-    
-    <lastmod>2022-02-21</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://xini.fun/post/d8c368ec.html</loc>
     
     <lastmod>2022-02-20</lastmod>
@@ -38,13 +29,6 @@
 
   
   <url>
-    <loc>http://xini.fun/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</loc>
-    <lastmod>2022-02-21</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>http://xini.fun/tags/Hexo/</loc>
     <lastmod>2022-02-21</lastmod>
     <changefreq>weekly</changefreq>
@@ -58,31 +42,10 @@
     <priority>0.2</priority>
   </url>
   
-  <url>
-    <loc>http://xini.fun/tags/%E7%89%A9%E8%81%94%E7%BD%91RFID%E5%8E%9F%E7%90%86%E4%B8%8E%E6%8A%80%E6%9C%AF/</loc>
-    <lastmod>2022-02-21</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
 
   
   <url>
-    <loc>http://xini.fun/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</loc>
-    <lastmod>2022-02-21</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>http://xini.fun/categories/Hexo/</loc>
-    <lastmod>2022-02-21</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://xini.fun/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/%E7%89%A9%E8%81%94%E7%BD%91RFID%E5%8E%9F%E7%90%86%E4%B8%8E%E6%8A%80%E6%9C%AF/</loc>
     <lastmod>2022-02-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
