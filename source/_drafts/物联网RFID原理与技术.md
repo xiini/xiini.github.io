@@ -7,6 +7,7 @@ tags:
   - 学习笔记
   - 物联网RFID原理与技术
 categories:
+  - 学习笔记
   - 物联网RFID原理与技术
 abbrlink: '5464e343'
 date: 2022-02-20 10:50:24

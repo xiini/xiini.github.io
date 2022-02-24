@@ -16,24 +16,24 @@
   <meta name="author" content="xini">
   <meta name="keywords" content="xini, 西妮, 西妮的博客, xini的博客">
   
-    <meta name="description" content="博客日常更新文章及更换设备后持续化的一些操作">
+    <meta name="description" content="有关数据库上课内容的一些重点笔记">
 <meta property="og:type" content="article">
-<meta property="og:title" content="博客日常维护">
-<meta property="og:url" content="http://xini.fun/post/d8c368ec.html">
+<meta property="og:title" content="数据库原理及应用教程（一）">
+<meta property="og:url" content="http://xini.fun/post/91c58844.html">
 <meta property="og:site_name" content="西妮の博客 - 保持热爱，奔赴山海">
-<meta property="og:description" content="博客日常更新文章及更换设备后持续化的一些操作">
+<meta property="og:description" content="有关数据库上课内容的一些重点笔记">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="https://img.gejiba.com/images/4dfb63d57190940d2dd60eb0915bba08.jpg">
-<meta property="article:published_time" content="2022-02-20T03:03:12.000Z">
-<meta property="article:modified_time" content="2022-02-20T14:40:07.872Z">
+<meta property="og:image" content="https://img.gejiba.com/images/0c99ece3f097ea5397f7bf93150e527d.jpg">
+<meta property="article:published_time" content="2022-02-21T02:00:00.000Z">
+<meta property="article:modified_time" content="2022-02-24T04:58:39.165Z">
 <meta property="article:author" content="xini">
-<meta property="article:tag" content="Hexo">
-<meta property="article:tag" content="博客维护">
+<meta property="article:tag" content="学习笔记">
+<meta property="article:tag" content="数据库原理及应用教程">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="https://img.gejiba.com/images/4dfb63d57190940d2dd60eb0915bba08.jpg">
+<meta name="twitter:image" content="https://img.gejiba.com/images/0c99ece3f097ea5397f7bf93150e527d.jpg">
   
   
-  <title>博客日常维护 - 西妮の博客 - 保持热爱，奔赴山海</title>
+  <title>数据库原理及应用教程（一） - 西妮の博客 - 保持热爱，奔赴山海</title>
 
   <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4/dist/css/bootstrap.min.css" />
 
@@ -174,12 +174,12 @@
 </nav>
 
     <div class="banner" id="banner" parallax=true
-         style="background: url('https://img.gejiba.com/images/4dfb63d57190940d2dd60eb0915bba08.jpg') no-repeat center center;
+         style="background: url('https://img.gejiba.com/images/0c99ece3f097ea5397f7bf93150e527d.jpg') no-repeat center center;
            background-size: cover;">
       <div class="full-bg-img">
         <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
           <div class="page-header text-center fade-in-up">
-            <span class="h2" id="subtitle" title="博客日常维护">
+            <span class="h2" id="subtitle" title="数据库原理及应用教程（一）">
               
             </span>
 
@@ -189,8 +189,8 @@
   
     <span class="post-meta">
       <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-      <time datetime="2022-02-20 11:03" pubdate>
-        2022年2月20日 上午
+      <time datetime="2022-02-21 10:00" pubdate>
+        2022年2月21日 上午
       </time>
     </span>
   
@@ -200,7 +200,7 @@
   
     <span class="post-meta mr-2">
       <i class="iconfont icon-chart"></i>
-      324 字
+      1k 字
     </span>
   
 
@@ -209,7 +209,7 @@
       <i class="iconfont icon-clock-fill"></i>
       
       
-      3 分钟
+      9 分钟
     </span>
   
 
@@ -238,28 +238,88 @@
         <div class="py-5" id="board">
           <article class="post-content mx-auto">
             <!-- SEO header -->
-            <h1 style="display: none">博客日常维护</h1>
+            <h1 style="display: none">数据库原理及应用教程（一）</h1>
             
             <div class="markdown-body">
-              <div class="note note-success">
-            <p><strong>环境</strong></p><ul><li>Windows 10</li><li>已安装 <strong>Git</strong> 、<strong>Node.js</strong></li></ul>
-          </div>
-<h2 id="日常改动流程"><a class="markdownIt-Anchor" href="#日常改动流程"></a> 日常改动流程</h2>
-<h3 id="更新博客内容"><a class="markdownIt-Anchor" href="#更新博客内容"></a> 更新博客内容</h3>
-<figure class="highlight bash"><table><tr><td class="gutter"><div class="code-wrapper"><pre><span class="line">1</span><br></pre></div></td><td class="code"><pre><code class="hljs bash">hexo clean &amp;&amp; hexo g -d<br></code></pre></td></tr></table></figure>
-<h3 id="备份hexo站点文件"><a class="markdownIt-Anchor" href="#备份hexo站点文件"></a> 备份hexo站点文件</h3>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs bash">git add .<br>git commit –m <span class="hljs-string">&quot;add branch&quot;</span><br>git push <br></code></pre></td></tr></table></figure>
-<p>将改动保备份到 github 的 hexo 分支，以便更换设备后的持续化。</p>
-<h2 id="若是更换设备后"><a class="markdownIt-Anchor" href="#若是更换设备后"></a> 若是更换设备后</h2>
+              <h2 id="第一章-数据库系统概述"><a class="markdownIt-Anchor" href="#第一章-数据库系统概述"></a> 第一章 数据库系统概述</h2>
+<h3 id="11-数据与信息"><a class="markdownIt-Anchor" href="#11-数据与信息"></a> 1.1 数据与信息</h3>
+<h4 id="信息information的定义"><a class="markdownIt-Anchor" href="#信息information的定义"></a> 信息(Information)的定义</h4>
+<blockquote>
+<p>信息是人脑对现实世界事物的存在方式、运动状态以及事物之间联系的抽象反应。</p>
+</blockquote>
+<h4 id="信息的特征"><a class="markdownIt-Anchor" href="#信息的特征"></a> 信息的特征</h4>
+<ol>
+<li>信息源于物质和能量。</li>
+<li>信息是可以感知的。</li>
+<li>信息是可存储、加工、传递和再生的。</li>
+</ol>
+<h4 id="数据date的定义"><a class="markdownIt-Anchor" href="#数据date的定义"></a> 数据(Date)的定义</h4>
+<p>数据是由用来记录信息的可识别的符号组合的、是信息的具体表现形式。</p>
+<h4 id="数据的表现形式"><a class="markdownIt-Anchor" href="#数据的表现形式"></a> 数据的表现形式</h4>
+<p>数据的表现显示不仅包括数字，还包括文字、图形、声音、和频率等。</p>
+<h3 id="12-数据库技术的产生-发展"><a class="markdownIt-Anchor" href="#12-数据库技术的产生-发展"></a> 1.2 数据库技术的产生、发展</h3>
+<p>数据管理经历了<strong>人工管理</strong>、<strong>文件系统</strong>、<strong>数据库系统</strong>三个发展阶段。</p>
+<h4 id="人工管理阶段的特点"><a class="markdownIt-Anchor" href="#人工管理阶段的特点"></a> 人工管理阶段的特点</h4>
+<ol>
+<li><strong>数据没有专门的存取设备。</strong></li>
+<li>数据没有专门的管理软件。</li>
+<li>数据不共享。</li>
+<li>数据不具有独立性。</li>
+</ol>
+<h4 id="文件系统阶段的特点"><a class="markdownIt-Anchor" href="#文件系统阶段的特点"></a> 文件系统阶段的特点</h4>
 <div class="note note-success">
-            <p>确保安装 Git 与 Node.js</p>
+            <p>与人工管理阶段最根本的区别是<strong>数据是否能保存</strong>。</p>
           </div>
-<h3 id="克隆-github-中-hexo-存储库中的站点文件"><a class="markdownIt-Anchor" href="#克隆-github-中-hexo-存储库中的站点文件"></a> 克隆 github 中 hexo 存储库中的站点文件</h3>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">git <span class="hljs-built_in">clone</span> git@github.com:name/name.github.io.git <br></code></pre></td></tr></table></figure>
-<p>其中的 name 为 github 的用户名</p>
-<h3 id="在克隆下来的文件夹中安装需要使用的-hexo-插件-视情况安装"><a class="markdownIt-Anchor" href="#在克隆下来的文件夹中安装需要使用的-hexo-插件-视情况安装"></a> 在克隆下来的文件夹中安装需要使用的 hexo 插件 (视情况安装)</h3>
-<h3 id="若已有-clone-文件则可直接进行远端同步"><a class="markdownIt-Anchor" href="#若已有-clone-文件则可直接进行远端同步"></a> 若已有 clone 文件，则可直接进行远端同步</h3>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">git pull<br></code></pre></td></tr></table></figure>
+<ol>
+<li><strong>数据以文件形式长期保存。</strong></li>
+<li>由文件系统管理数据。</li>
+<li>程序与数据间有一定独立性。</li>
+<li>文件的形式已经多样化。</li>
+<li>数据具有一定的共享性。</li>
+</ol>
+<h4 id="数据库系统阶段的特点"><a class="markdownIt-Anchor" href="#数据库系统阶段的特点"></a> 数据库系统阶段的特点</h4>
+<div class="note note-success">
+            <p>与文件系统阶段最根本的区别是<strong>数据是否具有结构化</strong></p>
+          </div>
+<ol>
+<li>结构化的数据及其联系的集合。</li>
+<li>数据共享性高、冗余度低。</li>
+<li>数据独立性高。</li>
+<li>有统一的数据管理和控制功能。</li>
+</ol>
+<h3 id="13-数据库系统的组成"><a class="markdownIt-Anchor" href="#13-数据库系统的组成"></a> 1.3 数据库系统的组成</h3>
+<div class="note note-success">
+            <p>数据库系统(DataBase System,DBS)是指在计算机系统中引入数据库后的系统。它主要由数据库、数据库用户、计算机硬件系统和计算机软件系统等几部分组成。</p>
+          </div>
+<h4 id="数据库"><a class="markdownIt-Anchor" href="#数据库"></a> 数据库</h4>
+<p>数据库(DataBase,DB)是存储在计算机内、有组织的、可共享的数据和数据对象（如表、视图、存储过程和触发器等）的集合。</p>
+<h4 id="用户"><a class="markdownIt-Anchor" href="#用户"></a> 用户</h4>
+<p>第三类用户：即数据库管理员（DataBase Administration，DBA）。</p>
+<h3 id="14-数据库系统的内部体系结构"><a class="markdownIt-Anchor" href="#14-数据库系统的内部体系结构"></a> 1.4 数据库系统的内部体系结构</h3>
+<div class="note note-success">
+            <p>数据库系统内部的体系结构可表示为<strong>三级模式结构</strong>。</p>
+          </div>
+<h4 id="数据库系统的三级模式结构"><a class="markdownIt-Anchor" href="#数据库系统的三级模式结构"></a> 数据库系统的三级模式结构</h4>
+<p>数据库系统内部的体系结构从逻辑上分为<strong>外模式、模式和内模式三级抽象模式和二级映像功能</strong>。</p>
+<blockquote>
+<p>模式（Schema）</p>
+<ul>
+<li>模式也称为概念模式，是数据库中全体数据的逻辑结构和特征的描述。</li>
+<li>一个数据库只有一个模式。</li>
+</ul>
+<p>外模式（External Schema）</p>
+<ul>
+<li>外模式又称子模式（Subschema）或用户模式（User Schema）。</li>
+<li>是数据库用户能看到并允许使用的那部分数据的逻辑结构和特征的描述，也是数据库用户的数据视图，即用户视图。</li>
+<li>外模式一般是模式的子集，一个数据库可以有多个外模式。</li>
+</ul>
+<p>内模式（Internal Schema）</p>
+<ul>
+<li>内模式又称存储模式（Storage Schema）或物理模式（Physical Schema）。</li>
+<li>它是对数据库存储结构的描述，是数据在数据库内部的表示方式。</li>
+<li>外模式可有多个，而模式、内模式只能各有一个。</li>
+</ul>
+</blockquote>
 
             </div>
             <hr>
@@ -269,7 +329,9 @@
                   <div class="post-meta mr-3">
                     <i class="iconfont icon-category"></i>
                     
-                      <a class="hover-with-bg" href="/categories/Hexo/">Hexo</a>
+                      <a class="hover-with-bg" href="/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/">学习笔记</a>
+                    
+                      <a class="hover-with-bg" href="/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/%E6%95%B0%E6%8D%AE%E5%BA%93%E5%8E%9F%E7%90%86%E5%8F%8A%E5%BA%94%E7%94%A8%E6%95%99%E7%A8%8B/">数据库原理及应用教程</a>
                     
                   </div>
                 
@@ -277,9 +339,9 @@
                   <div class="post-meta">
                     <i class="iconfont icon-tags"></i>
                     
-                      <a class="hover-with-bg" href="/tags/Hexo/">Hexo</a>
+                      <a class="hover-with-bg" href="/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/">学习笔记</a>
                     
-                      <a class="hover-with-bg" href="/tags/%E5%8D%9A%E5%AE%A2%E7%BB%B4%E6%8A%A4/">博客维护</a>
+                      <a class="hover-with-bg" href="/tags/%E6%95%B0%E6%8D%AE%E5%BA%93%E5%8E%9F%E7%90%86%E5%8F%8A%E5%BA%94%E7%94%A8%E6%95%99%E7%A8%8B/">数据库原理及应用教程</a>
                     
                   </div>
                 
@@ -296,18 +358,12 @@
                   <article class="post-prev col-6">
                     
                     
-                      <a href="/post/91c58844.html">
-                        <i class="iconfont icon-arrowleft"></i>
-                        <span class="hidden-mobile">数据库原理及应用教程（一）</span>
-                        <span class="visible-mobile">上一篇</span>
-                      </a>
-                    
                   </article>
                   <article class="post-next col-6">
                     
                     
-                      <a href="/post/8d4b7ae1.html">
-                        <span class="hidden-mobile">计算机组成原理（一）</span>
+                      <a href="/post/d8c368ec.html">
+                        <span class="hidden-mobile">博客日常维护</span>
                         <span class="visible-mobile">下一篇</span>
                         <i class="iconfont icon-arrowright"></i>
                       </a>

@@ -41,9 +41,6 @@ code:
 
   # 代码语言
   # Code language
-  language:
-    enable: true
-    default: "TEXT"
 
   # 代码高亮
   # Code highlight
@@ -583,7 +580,7 @@ post:
 
     # 是否使用相对时间表示，比如："3 天前"
     # If true, it will be a relative time, such as: "3 days ago"
-    relative: false
+    relative: true
 
   # 文章右侧目录
   # Table of contents (TOC)
